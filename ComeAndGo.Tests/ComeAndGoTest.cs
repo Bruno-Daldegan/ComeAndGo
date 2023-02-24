@@ -6,7 +6,6 @@ namespace ComeAndGo.Tests
     public class ComeAndGoTest
     {
         [Theory]
-        [InlineData("DSF", 2, "qweqw")]
         [InlineData("DSF", 2, "FDS")]
         [InlineData("DSF", 3, "DSF")]
         [InlineData("BSF", 3, "BSF")]
